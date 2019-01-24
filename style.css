@@ -83,12 +83,28 @@ header {
   justify-content: center;
 }
 
-
  #about p {
    width: 55%;
  }
+ #aboutmaddie {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+}
+#contactimage {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+}
  #aboutmockup {
-   width: 45%;
+   align-content: center;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
    height: auto;
  }
  #aboutImage {
@@ -98,36 +114,10 @@ header {
   height: 100%;
  }
 
- #staff {
-   display: flex;
-   flex-direction: column;
- }
-
- #staffSection {
-   display: flex;
-   text-align: center;
-   flex-direction: row;
-   flex-wrap: wrap;
- }
-
- .staff-profile {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   margin: 20px;
-   flex-wrap: wrap;
-   width: calc(33% - 40px);
- }
-
- #staffSection .headshot {
-   width: 4em;
-   height: 4em;
- }
-
-.staff-name {
-  font-size: 2em;
+#contact-section{
+  display: flex;
+  flex-direction: row;
 }
-
 .headerBox {
   display: flex;
   align-items: center;
@@ -200,7 +190,6 @@ header {
   text-shadow: 2px 2px #252525;
   font-size: 150%;
   text-align: center;
-  /* position: absolute; */
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -238,16 +227,5 @@ header {
 @media (max-width: 400px) {
   .staff-profile {
     width: calc(100% - 40px);
-  }
-  
-  #about div {
-    flex-direction: column;
-  }
-  #about p {
-    width: 100%;
-  }
-  #aboutmockup {
-    width: 100%;
-    height: auto;
   }
 }
