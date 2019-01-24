@@ -13,24 +13,58 @@
 </head>
 
 <body>
-
+    <div class="container--tabs">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Home</a>
+        <div class="navbar-nav">
+          <a class="navbar-brand" href="#home">Home</a>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Birth Doula Services</a>
-            <a class="nav-item nav-link" href="#">Prenatal Wellness</a>
-            <a class="nav-item nav-link" href="#">Postpartum Care</a>
-            <a class="nav-item nav-link" href="#">Lunar Women</a>
-            <a class="nav-item nav-link" href="#">Birth Doula Services</a>
-            <a class="nav-item nav-link active" href="#">Contact Me <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#birth">Birth Doula Services</a>
+            <a class="nav-item nav-link" href="#prenatal">Prenatal Wellness</a>
+            <a class="nav-item nav-link" href="#postpartum">Postpartum Care</a>
+            <a class="nav-item nav-link" href="#lunarwomen">Lunar Women</a>
+            <a class="nav-item nav-link active" href="#contact">Contact Me <span class="sr-only">(current)</span></a>
           </div>
         </div>
       </nav>
+<!-- 
+      <div class="container--tabs">
+          <section class="row">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab-1">Tab 1</a></li>
+              <li class=""><a href="#tab-2">Tab 2</a></li>
+              <li class=""><a href="#tab-3">Tab 3</a></li>
+            </ul>
+
+
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane active"> 
+                <span class="glyphicon glyphicon-leaf glyphicon--home--feature two columns text-center"></span>
+                <span class="col-md-10">
+                  <h3>Feature 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </span>
+              </div> 
+
+              <div id="tab-2" class="tab-pane">
+                <span class="glyphicon glyphicon-fire glyphicon--home--feature two columns text-center"></span>
+                <span class="col-md-10">
+                  <h3>Feature 2</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </span>
+              </div>
+
+            </div>
+          </section>
+        </div> -->
+
+  <div class="tab-content">
+  <div id="home" class="tab-pane active"> 
   <div id="title-container">
       <div class="imgbox">
         <img class="center-fit" id="landing-image" src="images/home image (2).jpg" />
@@ -39,8 +73,10 @@
         <h1>Madeline Skillman // Birth and Women's Wellness</h1>
       </div>
     </div>
+  </div>
 
-  <section id="about">
+  <section>
+  <div id="about" class="tab-pane">
     <h2 id='aboutHeader'>About</h2>
     <div>
       <p id='aboutParag'>
@@ -55,9 +91,11 @@
         <img id=aboutImage src="images/doula.jpg" alt="App mockup" />
       </div>
     </div>
-  </section>
+  </div>
+</section>
+  
 
-
+<!-- 
   <section id="staff">
     <h2>Services:</h2>
     <div id='staffSection'>
@@ -102,7 +140,9 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
+</div>
+</div>
 
   <footer class="footer">
   </footer>
