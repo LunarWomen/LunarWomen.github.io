@@ -15,8 +15,8 @@ const startListening = () => {
       console.log(`Mixing it up on port ${PORT}`))
   }
 
-const GMAIL_USER = require('../secrets')
-const GMAIL_PASS = require('../secrets')
+const GMAIL_USER = require('./secrets')
+const GMAIL_PASS = require('./secrets')
 
 async function bootApp() {
     await createApp()
