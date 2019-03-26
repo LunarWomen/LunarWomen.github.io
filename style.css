@@ -1,8 +1,3 @@
-/* 
- * Some Default Styles are provided for your convenience. 
- * You can start adding your own CSS below line 60.
- */
-
 * {
   box-sizing: border-box;
 }
@@ -36,6 +31,9 @@ img {
   height: auto;
 }
 
+#aboutImage1 {
+  height: 20px;
+}
 /* Default section styling */
 section {
   position: relative;
