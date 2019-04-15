@@ -128,6 +128,10 @@ header {
   display: flex;
   flex-direction: row;
 }
+
+#contactInfo {
+  margin: 5vh;
+}
 .headerBox {
   display: flex;
   align-items: center;
