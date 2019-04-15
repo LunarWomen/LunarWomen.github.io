@@ -83,14 +83,21 @@ header {
   justify-content: center;
 }
 
- #about p {
+ /* #about p {
    width: 55%;
+ } */
+
+
+ #aboutmaddietop {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 5vh;
+   align-items: center;
  }
- #aboutmaddie {
+ #aboutmaddiebottom {
   align-content: center;
-  display: flex;
-  flex-direction: row;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 #contactimage {
@@ -107,9 +114,12 @@ header {
    width: 100%;
    height: auto;
  }
+
+  #headshot {
+    height: auto;
+    width: 35vw;;
+  }
  #aboutImage {
-   /* display: flex; */
-   /* flex: 1.25 50px; */
   width: 100%;
   height: 100%;
  }
