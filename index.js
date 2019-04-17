@@ -21,3 +21,9 @@ window.addEventListener('load', function() {
 		myTabs[i].addEventListener('click', myTabClicks)
 	}
 });
+
+
+const emailSubmit = document.getElementById('emailSubmit');
+emailSubmit.addEventListener('click', function() {
+	window.location.href = `mailto:mags21walker@gmail.com?subject=Email from Person at Email&body=Body of email`
+})
