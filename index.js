@@ -21,7 +21,23 @@ window.addEventListener('load', function() {
 		myTabs[i].addEventListener('click', myTabClicks)
 	}
 });
+const navBar = document.getElementById('navbarNavAltMarkup')
+const toggle = document.getElementById('toggleButton')
+let toggled = false;
+toggle.addEventListener('click', function() {
+	toggled = !toggled
+})
 
+let toggleClick = function() {
+	if (toggled = true) {
+		navBar.classList.remove("show")
+		navBar.classList.add("hide")
+	}
+}
+const navItems = Array.from(document.getElementsByClassName('nav-item nav-link'))
+navItems.map((item) => {
+	item.addEventListener('click', toggleClick)
+})
 
 const emailSubmit = document.getElementById('emailSubmit');
 const clientNameForm = document.getElementById('clientName')
