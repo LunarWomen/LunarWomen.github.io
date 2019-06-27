@@ -9,7 +9,9 @@
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto Mono';
+  /* font-family: 'Frank Ruhl Libre' */
 }
 
 p {
@@ -28,7 +30,9 @@ h2 {
 
 h1, h2, h3, nav {
   /* font-family: "Saira Extra Condensed", sans-serif; */
-  font-family: 'Quicksand';
+  font-family: 'Roboto Mono';
+  color: #3F2A33;
+  /* font-family: 'Frank Ruhl Libre' */
 }
 
 /* Responsive images */
@@ -37,6 +41,9 @@ img {
   height: auto;
 }
 
+.tab { 
+  margin-left: 40px; 
+}
 /* Default section styling */
 section {
   position: relative;
@@ -47,16 +54,6 @@ section h2 {
   text-align: center;
   position: relative;
   margin: 60px 0;
-}
-section h2:after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  width: 60px;
-  height: 1px;
-  background-color: #db3214;
-  left: 50%;
-  margin-left: -30px;
 }
 
 /* Header defaults */
@@ -84,16 +81,16 @@ header {
   justify-content: center;
 }
 
- /* #about p {
-   width: 55%;
- } */
-
+#about-list-container {
+  display: flex;
+  flex-direction: row;
+}
 
  #aboutmaddietop {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   margin: 5vh;
+   /* margin: 20vh; */
    align-items: center;
  }
  #aboutmaddiebottom {
@@ -118,7 +115,9 @@ header {
 
   #headshot {
     height: auto;
-    width: 35vw;;
+    width: 35vw;
+    float: left;
+    margin: 0 40px 40px 0;
   }
  #aboutImage {
   width: 100%;
@@ -156,16 +155,33 @@ header {
 }
 
 .navbar-brand {
-  font-size: 2em;
+  height: 85px;
+  width: 82px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand:before {
+  content: url(/images/lunarwomenmoonlogo.png);
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
 }
 .nav-item {
   margin: 20px;
-  font-size: 1.3em;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .nav-item a {
   color: grey;
   text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #3F2A33;
 }
 
 #contact-me {
@@ -200,18 +216,27 @@ header {
 #title-container {
   margin: 2vh;
   position: relative;
-  /* height: 100vh;
-  width: auto; */
 }
+
 #title {
-  color: grey;
-  /* text-shadow: 2px 2px grey; */
-  font-size: 150%;
+  /* darkMaroon #3F2A33 */
+  /* darblue #313447 */
+  /* dark dark #28252E */
+  color: #3F2A33;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+.h1-title {
+  font-size: 40px;
+  color: #3F2A33;
+}
+
+#title span {
+  text-transform: uppercase;
 }
 
 .imgbox {
