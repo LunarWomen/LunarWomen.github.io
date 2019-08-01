@@ -98,11 +98,22 @@ header {
   width: 100%;
   height: auto;
 }
-#contactimage {
-  align-content: center;
+
+#contact-section{
   display: flex;
   flex-direction: row;
-  width: 50%;
+  justify-content: center;
+}
+
+#contactInfo {
+  margin: 5vh;
+}
+
+#contactImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
   height: auto;
 }
  #aboutmockup {
@@ -124,14 +135,6 @@ header {
   height: 100%;
  }
 
-#contact-section{
-  display: flex;
-  flex-direction: row;
-}
-
-#contactInfo {
-  margin: 5vh;
-}
 .headerBox {
   display: flex;
   align-items: center;
