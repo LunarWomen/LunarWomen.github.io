@@ -11,10 +11,12 @@
 
   body #contactInfo {
     margin: 1vh;
+    font-size: 12px;
   }
 
   body section h2 {
     margin: 30px 0;
+  
   }
 }
 
@@ -128,9 +130,6 @@ header {
   height: auto;
 }
 
-/* #contactImageText {
-  align-content: center;
-} */
  #aboutmockup {
    align-content: center;
    display: flex;
