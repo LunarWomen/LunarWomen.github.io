@@ -1,10 +1,21 @@
-/* 
- * Some Default Styles are provided for your convenience. 
- * You can start adding your own CSS below line 60.
- */
-
 * {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1000px) {
+  #contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body #contactInfo {
+    margin: 1vh;
+  }
+
+  body section h2 {
+    margin: 30px 0;
+  }
 }
 
 body {
@@ -101,7 +112,6 @@ header {
 
 #contact-section{
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -113,9 +123,14 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 30%;
   height: auto;
 }
+
+/* #contactImageText {
+  align-content: center;
+} */
  #aboutmockup {
    align-content: center;
    display: flex;
