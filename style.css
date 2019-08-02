@@ -3,6 +3,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  body {
+    font-size: .85rem;
+  }
   #contact-section {
     display: flex;
     flex-direction: column;
@@ -96,7 +99,7 @@ header {
 
 #about-list-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
  #aboutmaddietop {
