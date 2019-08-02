@@ -6,6 +6,9 @@
   body {
     font-size: .85rem;
   }
+  body .h1-title {
+    font-size: 35px;
+  }
   #contact-section {
     display: flex;
     flex-direction: column;
@@ -18,7 +21,7 @@
   }
 
   body section h2 {
-    margin: 30px 0;
+    margin: 10px 0;
   
   }
 }
@@ -131,6 +134,7 @@ header {
   text-align: center;
   width: 30%;
   min-width: 200px;
+  margin-top: 20px;
   height: auto;
 }
 
