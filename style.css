@@ -23,7 +23,17 @@
 
   body section h2 {
     margin: 10px 0;
+  }
+
+  body .navbar {
+    height: 80px;
+  }
   
+  body .navbar-brand:before {
+    content: url(/images/lunarwomenmoonlogo2.png);
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
   }
 }
 
