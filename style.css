@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px;
   }
 
   body #contactInfo {
@@ -122,6 +121,7 @@ header {
 #contact-section{
   display: flex;
   justify-content: center;
+  margin: 80px;
 }
 
 #contactInfo {
