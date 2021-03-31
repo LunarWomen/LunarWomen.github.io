@@ -39,18 +39,7 @@ navItems.map((item) => {
 	item.addEventListener('click', toggleClick)
 })
 
-const emailSubmit = document.getElementById('emailSubmit');
+
 const clientNameForm = document.getElementById('clientName')
 const clientEmailForm = document.getElementById('exampleInputEmail1')
 const clientSubjectForm = document.getElementById('subject')
-
-emailSubmit.addEventListener('click', function() {
-	let clientName = clientNameForm.value;
-	let clientEmail = clientEmailForm.value;
-	let clientSubject = clientSubjectForm.value
-	window.location.href = `mailto:mags21walker@gmail.com?subject=Email from ${clientName ? clientName : "Person"} at ${clientEmail ? clientEmail : "Email"}&body=${clientSubject ? clientSubject : "No message"}`
-
-	clientNameForm.value = '';
-	clientEmailForm.value = '';
-	clientSubjectForm.value = '';
-})
