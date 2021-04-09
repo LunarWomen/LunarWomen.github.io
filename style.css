@@ -62,6 +62,10 @@ img {
   height: auto;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .tab { 
   margin-left: 40px; 
 }
