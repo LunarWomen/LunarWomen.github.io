@@ -5,7 +5,7 @@ This is a simple, lightweight, html-forward site for midwife and holistic-healer
 ## Table of Contents
 
 - [Installation](#installation)
-- [Local Development](#localdevelopment)
+- [Local Development](#local-development)
 - [Support](#support)
 
 ## Installation
