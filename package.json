@@ -19,7 +19,7 @@
   "homepage": "https://github.com/LunarWomen/LunarWomen.github.io#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "jquery": "^3.5.0",
     "node": "^11.13.0",
